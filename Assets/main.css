@@ -1,0 +1,172 @@
+body {
+    background-color: #EBBA73;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 4000px;
+}
+
+mark {
+    background-color: #EBBA73;
+    color: #973B0A;
+}
+
+/* LARGE: This CSS applies to screens >= 900px wide */
+@media only screen and (min-width: 900px) {
+
+  .image {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    left: 750px;
+    top: 175px;
+    z-index: 1;
+  }
+
+  .header {
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    font-family: 'Fugaz One', cursive;
+    color: #973B0A;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    letter-spacing: 0.05em;
+    z-index: 2;
+  }
+
+  .text {
+    position: absolute;
+    left: 50px;
+    top: 140px;
+    font-family: Didact Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 50px;
+    color: #E48B10;
+  }
+
+  .home {
+    position: absolute;
+    width: 163px;
+    height: 85px;
+    left: 50px;
+    top: 3px;
+    font-family: Didact Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 85px;
+    color: #EEEEEE;
+  }
+
+  .shop {
+    position: absolute;
+    width: 144px;
+    height: 85px;
+    left: 130px;
+    top: 3px;
+    font-family: Didact Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 85px;
+    color: #EEEEEE;
+  }
+
+    .about {
+    position: absolute;
+    width: 162px;
+    height: 85px;
+    left: 210px;
+    top: 3px;
+    font-family: Didact Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 85px;
+    color: #EEEEEE;
+  }
+}
+
+/* SMALL: This CSS applies to screens <= 500px wide */
+@media only screen and (max-width: 500px) {
+
+  .image {
+    position: absolute;
+    width: 5%;
+    height: auto;
+    left: 1px;
+    top: 210px;
+  }
+
+  .header {
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    font-family: 'Fugaz One', cursive;
+    color: #973B0A;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    z-index: 1;
+  }
+
+  .text {
+    position: absolute;
+    left: 5px;
+    top: 795px;
+    padding: 10px;
+    font-family: Didact Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 70px;
+    color: #E48B10;
+  }
+
+  .home {
+    position: absolute;
+    width: 163px;
+    height: 85px;
+    left: 220px;
+    top: 35px;
+    font-family: Didact Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 85px;
+    color: #EEEEEE;
+  }
+
+  .shop {
+    position: absolute;
+    width: 144px;
+    height: 85px;
+    left: 220px;
+    top: 70px;
+    font-family: Didact Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 85px;
+    color: #EEEEEE;
+  }
+
+    .about {
+    position: absolute;
+    width: 162px;
+    height: 85px;
+    left: 220px;
+    top: 105px;
+    font-family: Didact Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 85px;
+    color: #EEEEEE;
+  }
+}
